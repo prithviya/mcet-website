@@ -865,9 +865,13 @@ blockquote p cite {
 .contactMe .btn.btn-bordered {
   height: 50px;
   padding: 0 45px;
-  background: none;
+  background: transparent;
   margin: 0 auto;
   border:1px solid #fff;
+  width: 50%;
+  display: flex;
+  place-content: center;
+  color: #fff;
 }
 .contactMe > section {
   border-radius: 0;
