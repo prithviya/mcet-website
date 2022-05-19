@@ -1716,7 +1716,7 @@ blockquote p cite {
   right: 30px;
 }
 .ts-slider-area.owl-carousel .owl-nav button:hover {
-  background: #ee3131 !important;
+  background: var(--orange) !important;
 }
 
 /* Intro Area
