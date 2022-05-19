@@ -2408,7 +2408,7 @@ blockquote p cite {
   display: block;
   text-align: right;
   margin-top: -30px;
-  color: #d20022;
+  color: var(--orange);
 }
 .testimonial-body:after {
   content: "";
@@ -2553,7 +2553,7 @@ blockquote p cite {
 
 .ts-latest-post .post-body1 {
   position: relative;
-  border-left: 3px solid var(--orange);
+  /* border-left: 3px solid var(--orange); */
   padding: 30px 27px;
   background: #f7f7f7;
   -webkit-transition: all 0.3s;
@@ -2686,7 +2686,7 @@ blockquote p cite {
 
 /* Footer */
 .footer {
-  background: #06163a;
+  background: rgba(0, 0, 0, 0.8);
   position: relative;
 }
 
@@ -2734,7 +2734,7 @@ blockquote p cite {
   z-index: 1;
 }
 .footer-top [class*=col]:nth-child(2) {
-  background: #d20022;
+  background: #ed3816;
 }
 .footer-top [class*=col]:nth-child(2):after {
   content: "";
@@ -2742,12 +2742,12 @@ blockquote p cite {
   top: 0;
   right: -50px;
   border-style: solid;
-  border-color: transparent transparent transparent #d20022;
+  border-color: transparent transparent transparent #ed3816;
   border-width: 50px 0px 50px 50px;
   z-index: 1;
 }
 .footer-top [class*=col]:nth-child(3) {
-  background: #ee3131;
+  background: #2f2f2f;
 }
 .footer-top .footer-box i {
   font-size: 36px;
@@ -2861,7 +2861,7 @@ blockquote p cite {
 
 .copyright {
   position: relative;
-  background: #030e28;
+  background: #2f2f2f;
   padding: 23px 0;
 }
 .copyright .copyright-info {
