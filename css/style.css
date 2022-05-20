@@ -4458,3 +4458,11 @@ blockquote p cite {
   color: #fff;
   font-size: 80px;
 }
+/* apply btn transparent bg */
+.transparent-btn
+{
+  border: 1px solid #fff;
+  background-color: transparent !important; 
+  padding: 10px 30px; 
+  font-size: 14px;
+}
