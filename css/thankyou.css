@@ -1,0 +1,50 @@
+.custom-banner-img {
+    background-image: url(../images/thank.jpg);
+    width: 100% !important;
+    min-height: 100vh !important;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+  }
+@media only screen and (max-width: 800px) 
+{
+    .form-bg
+    {
+        margin-top:45%;
+    }
+}
+.navbar
+{
+    position: absolute !important;
+}
+.form-bg
+{
+  background-color: rgba(0,0,0,0.4);
+  padding: 2rem;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+.btn-primary
+{
+    background-color: transparent !important;
+    border-color: #fff !important;
+}
+.btn-primary:hover
+{
+    background-color: #ed3816 !important;
+    border-color: #ed3816 !important;
+    border: 1px solid !important;
+}
+.btn
+{
+    font-size: 1.5rem !important;
+    padding: 7px 20px !important;
+    color: #fff !important;
+}

@@ -138,7 +138,7 @@
     position: absolute;
     width: 100%;
     top: 60px;
-    background: #ee3131;
+    background: #ed3816;
     margin-left: 0px;
     padding-left: 85px;
     padding-right: 85px;
@@ -416,7 +416,7 @@
     right: 0;
     top: -50px;
     margin: auto;
-    background: #d20022;
+    background: #d20022 ;
     border-radius: 5px;
   }
 
@@ -609,7 +609,7 @@
     position: absolute;
     width: 100%;
     top: 58px;
-    background: #ee3131;
+    background: #ed3816;
     margin-left: 0;
     padding-left: 32px;
     padding-right: 0;
